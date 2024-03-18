@@ -5,13 +5,41 @@ html {
 }
 
 body {
+	margin: 0;
+}
 
+header {
+	text-align: center;
+	background: grey;
+	margin: 0;
+	padding: 15px;
 }
 
 main {
 	width: 500px;
-	height: 500px;
+	height: 400px;
 	margin: auto;
 	margin-top: 25vh;
 	margin-bottom: 25vh;
+}
+
+h3 {
+	text-align: center;
+	margin-bottom: 50px;
+	font-style: italic;
+}
+
+button {
+	display: block;
+	margin-top: 25px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+input {
+	display: block;
+	margin-top: 25px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 55px ;
 }
